@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>trail2.png</file>
+        <file>404_music_shop.png</file>
+        <file>icon.png</file>
+        <file>test1.jpg</file>
+        <file>test2.jpg</file>
+        <file>test3.jpg</file>
+        <file>test4.jpg</file>
+        <file>space.jpg</file>
+        <file>404_music_shop_mini.png</file>
+        <file>goodBKG.jpg</file>
+        <file>goodBKG2.jpg</file>
+        <file>music_bkg.png</file>
+        <file>reallygood.png</file>
+        <file>true.png</file>
+        <file>true2me.jpg</file>
+        <file>Yeezus_resized.jpg</file>
+        <file>win1.jpg</file>
+        <file>win2.jpg</file>
+        <file>win3.jpg</file>
+        <file>lose1.jpg</file>
+        <file>lose2.jpg</file>
+        <file>lose3.jpg</file>
+        <file>wave.png</file>
+        <file>beautiful.jpg</file>
+    </qresource>
+</RCC>

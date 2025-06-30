@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cvideo</class>
+ <widget class="QDialog" name="cvideo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>572</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>572</width>
+    <height>507</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QFrame#frame{
+	border-image: url(:/res/goodBKG2.jpg);
+}
+
+#frame_2{
+	border-radius: 30px;
+	background-color: rgba(158, 158, 158, 120);
+}
+
+#frame_3{
+	border-radius: 30px;
+	background-color: rgba(158, 158, 158, 120);
+}
+
+#frame_4{
+	border-radius: 30px;
+	background-color: rgba(158, 158, 158, 120);
+}
+
+QLabel{
+	background: transparent;
+	color: rgba(255, 255, 255, 200);
+	font: 12pt &quot;等线&quot;;
+}
+
+QLabel#label{
+	font: 16pt &quot;等线&quot;;
+}
+
+QPushButton{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(100, 197, 255, 255), stop:1 rgba(133, 71, 255, 255));
+	
+	font: 12pt &quot;等线&quot;;
+}
+
+QPushButton:hover{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 197, 255, 255), stop:1 rgba(133, 71, 255, 255));
+	
+	font: 12pt &quot;等线&quot;;
+}
+
+QPushButton:pressed{
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(100, 197, 255, 255), stop:1 rgba(133, 71, 255, 255));
+	
+	font: 12pt &quot;等线&quot;;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>511</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>作者肝完后的碎碎念</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>本程序由404 student独立完成，感谢404 student。</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>本程序的完成离不开用这个播放器放的所有音乐。</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>190</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>由于能力有限，程序有诸多不足或我未发现的bug，欢迎批评指正！</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>同样的，如果有程序美化方面的意见，也请指出以便我优化。</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>感谢所有尝试并为本程序提供优化意见的所有人！</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>70</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>感谢您看到这里！感谢您的使用！</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>如果您有什么想法，请告知我。我将更新整个程序。</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>280</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>这个工程最恶心的地方是QT6删掉了一堆音乐库，没啥资料能查。</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,6 +1,6 @@
 # 404-Music-Shop
 
-##演示视频
+*演示视频
 
 https://disk.pku.edu.cn/link/AA855E40E2174D40398EEB30F4C649E62F
 
@@ -10,7 +10,7 @@ https://disk.pku.edu.cn/link/AA855E40E2174D40398EEB30F4C649E62F
 
 提取码：qR8h
 
-##一些关于程序的说明
+*一些关于程序的说明
 
 1.需要保证exe同级文件夹下有“username.txt”文件，可以手动创建一个空文件。
 
